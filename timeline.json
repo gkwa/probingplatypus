@@ -1,0 +1,53 @@
+{
+  "title": "Sourdough Bread Making Timeline",
+  "steps": [
+    {
+      "name": "Make Levain",
+      "duration": "10h",
+      "color": "#8FBC8F",
+      "category": "Preparation",
+      "description": "Mix levain ingredients and let ripen for 10 hours"
+    },
+    {
+      "name": "Autolyse",
+      "dependsOn": "Make Levain",
+      "waitAfterPrevious": "0m",
+      "duration": "20m",
+      "color": "#9370DB",
+      "category": "Mixing",
+      "description": "Mix flour, water, and levain - let rest 20 minutes"
+    },
+    {
+      "name": "Mix & Bulk Fermentation",
+      "waitAfterPrevious": "0m",
+      "duration": "4h10m",
+      "color": "#4169E1",
+      "category": "Fermentation",
+      "description": "Finish mixing and begin bulk fermentation"
+    },
+    {
+      "name": "Divide & Preshape",
+      "waitAfterPrevious": "0m",
+      "duration": "15m",
+      "color": "#FF8C00",
+      "category": "Shaping",
+      "description": "Divide, pre-shape, and bench rest"
+    },
+    {
+      "name": "Final Shape & Proof",
+      "waitAfterPrevious": "0m",
+      "duration": "9h15m",
+      "color": "#DC143C",
+      "category": "Proofing",
+      "description": "Shape and place into the refrigerator to proof overnight"
+    },
+    {
+      "name": "Bake",
+      "waitAfterPrevious": "0m",
+      "duration": "50m",
+      "color": "#B8860B",
+      "category": "Baking",
+      "description": "Bake the next day before work"
+    }
+  ]
+}
